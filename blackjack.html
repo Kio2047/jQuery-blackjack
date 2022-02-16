@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- CSS Playing Cards, a CSS card library, was used in this app for the cards' graphics. Details:
+   @author   Anika Henke <anika@selfthinker.org>
+   @license  CC BY-SA [http://creativecommons.org/licenses/by-sa/3.0]
+   @version  2011-06-14
+   @link     http://selfthinker.github.com/CSS-Playing-Cards/ -->
+  <link rel="stylesheet" type="text/css" href="cards/cards.css" media="screen"/>
+
+  <link rel="stylesheet" href="blackjack.css">
+  <title>Blackjack App</title>
+</head>
+<body>
+
+<div id="info">
+
+    <div id="dealer-hand" class="playingCards simpleCards"></div>
+    <div id="dealer-value"></div>
+
+    <button type="button" id="hit">Hit!</button>
+    <button id="new-round-button">Do you want to play a new round?</button>
+    <button type="button" id="stand">Stand!</button> 
+
+    <div id="player-hand" class="playingCards simpleCards"></div>
+    <div id="player-value"></div>
+
+    <div class="playingCards fourColours rotateHand">
+      
+    </div>
+    <div id="result"></div>
+
+</div>
+
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="blackjack.js"></script>
+
+</body>
+</html>
